@@ -1,0 +1,42 @@
+.navbar {
+  background: linear-gradient(
+    284deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(215, 215, 242, 1) 0%,
+    rgba(243, 247, 247, 1) 0%,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(243, 247, 247, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(194, 194, 202, 1) 0%,
+    rgba(255, 255, 255, 1) 87%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.navbar-button {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.navbar-button:hover {
+  color: #ffff;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.active {
+  color: #ffff;
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

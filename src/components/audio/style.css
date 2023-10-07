@@ -1,0 +1,56 @@
+.DVD {
+    background-image: url("../../assets/dvd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* CSS */
+.rotate-animation {
+    animation: rotate 2s linear infinite;
+    transition: transform 0.5s ease;
+}
+
+.song-detail-active {
+    transform: translateY(-99%);
+    transition: transform 0.5s ease;
+}
+
+.song-detail-inactive {
+    transform: translateY(0%);
+    transition: transform 0.5s ease;
+}
+
+.rotate {
+    animation: rotate 2s linear infinite;
+}
+
+.DVD-active {
+    transform: scale(1.25) translateY(-15%);
+    transition: transform 0.5s ease;
+}
+
+.DVD-inactive {
+    transform: scale(1) translateY(0%);
+    transition: transform 0.5s ease;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.25);
+    }
+}
